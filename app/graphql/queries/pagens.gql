@@ -1,0 +1,10 @@
+query PagensPagenWorpress {
+  pages{
+    edges{
+      node{
+          id
+          content
+          }
+       }
+    }
+}
