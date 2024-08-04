@@ -24279,6 +24279,13 @@ export interface _Service {
   sdl: Maybe<Scalars['String']['output']>;
 }
 
+export type PageByIdQueryVariables = Exact<{
+  id: Scalars['ID']['input'];
+}>;
+
+
+export type PageByIdQuery = { __typename?: 'Query', page: { __typename?: 'Page', id: string, content: string } | null };
+
 export type PagensPagenWorpressQueryVariables = Exact<{ [key: string]: never; }>;
 
 

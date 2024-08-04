@@ -1,0 +1,7 @@
+query PageById($id: ID!) 
+{
+  page(id: $id){
+     id
+     content
+  }
+}
